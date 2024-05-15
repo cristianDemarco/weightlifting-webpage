@@ -11294,5 +11294,5 @@ section > div.row {
   margin: 0; }
 
 #title {
-  background-image: url(../assets/images/whitePattern.jpg);
+  background-image: url("../assets/images/whitePattern.jpg");
   width: 100%; }
