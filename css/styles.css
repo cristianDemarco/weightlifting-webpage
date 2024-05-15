@@ -11277,11 +11277,6 @@ div.arrow-icon {
 div.arrow-icon > a {
   color: white; }
 
-.nav_container {
-  position: sticky;
-  top: 0;
-  z-index: 1000; }
-
 header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: relative; }
@@ -11299,23 +11294,5 @@ section > div.row {
   margin: 0; }
 
 #title {
-  background-image: url(../assets/images/white_background.jpg);
+  background-image: url(../assets/images/whitePattern.jpg);
   width: 100%; }
-
-/*// X-Small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
-
-// X-Large devices (large desktops, less than 1400px)
-@media (max-width: 1399.98px) { ... }
-
-// XX-Large devices (larger desktops)
-// No media query since the xxl breakpoint has no upper bound on its width*/
