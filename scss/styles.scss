@@ -1,0 +1,53 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+/* npx node-sass scss/styles.scss css/styles.css*/
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.masthead{
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../assets/images/WLBackground.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-link{
+    color:white !important;
+}
+
+div.arrow-icon{
+    font-size: 4rem;
+    display: block;
+}
+
+div.arrow-icon > a{
+    color: white;
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+div.video-container > video{
+    width: 35%;
+}
+
+section{
+    position: relative;
+    background-image: url("../assets/images/backgroundPattern.webp");
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section > div.row{
+    margin: 0;
+}
+
+#title{
+    background-image: url(../assets/images/white_background.jpg);
+    width: 100%;
+}
