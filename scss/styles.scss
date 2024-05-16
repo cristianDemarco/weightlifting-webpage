@@ -18,12 +18,9 @@ html, body {
     color:white !important;
 }
 
-div.arrow-icon{
-    font-size: 4rem;
+#arrow-icon{
+    font-size: 7rem;
     display: block;
-}
-
-div.arrow-icon > a{
     color: white;
 }
 
@@ -51,3 +48,12 @@ section > div.row{
     background-image: url("../assets/images/whitePattern.jpg");
     width: 100%;
 }
+
+@media screen and (max-width:992px){
+    #clean_and_jerk{
+      display:flex;
+      flex-flow: column;
+    }
+    #video-clean-and-jerk{order:2;}
+    #text-clean-and-jerk{order:1;}
+  }
