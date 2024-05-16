@@ -11294,7 +11294,7 @@ section {
   width: 100%; }
 
 #competitions-banner {
-  background-image: url("../assets/images/blackPattern2.jpg");
+  background-image: url("../assets/images/blackPattern.jpg");
   width: 100%; }
 
 @media screen and (max-width: 992px) {
@@ -11305,3 +11305,6 @@ section {
     order: 2; }
   #text-clean-and-jerk, #lift-judgement-paragraph {
     order: 1; } }
+
+.item {
+  width: 35%; }
