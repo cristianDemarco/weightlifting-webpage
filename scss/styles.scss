@@ -12,6 +12,8 @@ html, body {
     background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../assets/images/WLBackground.jpg");
     background-size: cover;
     height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
 }
 
 .nav-link{
@@ -24,10 +26,10 @@ html, body {
     color: white;
 }
 
-header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
+section > div.row{
+    margin: 0;
 }
+
 
 div.video-container > video{
     width: 60%;
@@ -40,12 +42,13 @@ section{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-section > div.row{
-    margin: 0;
+#lifts-banner{
+    background-image: url("../assets/images/whitePattern.jpg");
+    width: 100%;
 }
 
-#title{
-    background-image: url("../assets/images/whitePattern.jpg");
+#competitions-banner{
+    background-image: url("../assets/images/blackPattern2.jpg");
     width: 100%;
 }
 
