@@ -11298,10 +11298,10 @@ section {
   width: 100%; }
 
 @media screen and (max-width: 992px) {
-  #clean_and_jerk {
+  #clean_and_jerk, lift-judgement {
     display: flex;
     flex-flow: column; }
-  #video-clean-and-jerk {
+  #video-clean-and-jerk, #platform-image {
     order: 2; }
-  #text-clean-and-jerk {
+  #text-clean-and-jerk, #lift-judgement-paragraph {
     order: 1; } }

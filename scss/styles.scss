@@ -53,10 +53,11 @@ section{
 }
 
 @media screen and (max-width:992px){
-    #clean_and_jerk{
+    #clean_and_jerk, lift-judgement{
       display:flex;
       flex-flow: column;
     }
-    #video-clean-and-jerk{order:2;}
-    #text-clean-and-jerk{order:1;}
+    #video-clean-and-jerk, #platform-image{order:2;}
+    #text-clean-and-jerk, #lift-judgement-paragraph{order:1;}
+
   }
