@@ -11297,10 +11297,20 @@ section {
   background-image: url("../assets/images/blackPattern.jpg");
   width: 100%; }
 
+#carousel-container {
+  background-image: url("../assets/images/italy-flag-with-grunge-effect.jpg");
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-size: cover; }
+
 .carousel-video {
   width: 50%; }
 
-@media screen and (max-width: 992px) {
+#olympics {
+  background-image: none;
+  background-color: #0b0d0c; }
+
+@media (max-width: 991.98px) {
   #clean_and_jerk, lift-judgement {
     display: flex;
     flex-flow: column; }
