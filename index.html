@@ -26,7 +26,7 @@
                             <a class="nav-link" href="#competitions">LE GARE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#olimpics">LE OLIMPIADI</a>
+                            <a class="nav-link" href="#olympics">LE OLIMPIADI</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about-me">E IO?</a>
@@ -137,7 +137,7 @@
                 </div>
             </div>
         </section>
-        <section id="olympic" class="row text-white fs-4">
+        <section id="olympics" class="row text-white fs-4">
             <div class="row my-5">
                 <div class="row text-center">
                     <h1 class="fw-bold display-1">
@@ -222,5 +222,24 @@
                 </div>
             </div>
         </section>        
+        <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var carousel = document.querySelector('#liftsCarousel');
+                    var videos = carousel.querySelectorAll('video');
+
+                    carousel.addEventListener('slide.bs.carousel', function () {
+                        videos.forEach(function (video) {
+                            video.pause();
+                        });
+                    });
+
+                    carousel.addEventListener('slid.bs.carousel', function () {
+                        var activeVideo = carousel.querySelector('.carousel-item.active video');
+                        if (activeVideo) {
+                            activeVideo.play();
+                        }
+                    });
+                });
+        </script>
     </body>
 </html>
