@@ -30,7 +30,6 @@ section > div.row{
     margin: 0;
 }
 
-
 div.video-container > video{
     width: 60%;
 }
@@ -52,6 +51,10 @@ section{
     width: 100%;
 }
 
+.carousel-video{
+    width: 50%;
+}
+
 @media screen and (max-width:992px){
     #clean_and_jerk, lift-judgement{
       display:flex;
@@ -60,4 +63,8 @@ section{
     #video-clean-and-jerk, #platform-image{order:2;}
     #text-clean-and-jerk, #lift-judgement-paragraph{order:1;}
 
-  }
+    .carousel-video{
+        width: 80%;
+    }
+}
+
