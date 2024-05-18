@@ -11,8 +11,8 @@ html, body {
     background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../assets/images/WLBackground.jpg");
     background-size: cover;
     height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
+    background-position: center;
 }
 
 .nav-link{
@@ -37,7 +37,6 @@ section{
     position: relative;
     background-image: url("../assets/images/backgroundPattern.webp");
     height: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #lifts-banner{
@@ -66,6 +65,10 @@ section{
     background-color: #0b0d0c;
 }
 
+.paragraph {
+    font-size: 2rem;
+}
+
 @include media-breakpoint-down(lg) {
     #clean_and_jerk, lift-judgement{
         display:flex;
@@ -74,7 +77,11 @@ section{
       #video-clean-and-jerk, #platform-image{order:2;}
       #text-clean-and-jerk, #lift-judgement-paragraph{order:1;}
   
-      .carousel-video{
-          width: 80%;
-      }
+    .carousel-video{
+        width: 80%;
+    }
+    
+    .paragraph{
+        font-size: 1.5rem;
+    }
 }

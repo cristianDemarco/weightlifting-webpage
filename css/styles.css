@@ -11266,8 +11266,8 @@ html, body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/images/WLBackground.jpg");
   background-size: cover;
   height: 100vh;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  position: relative; }
+  position: relative;
+  background-position: center; }
 
 .nav-link {
   color: white !important; }
@@ -11286,8 +11286,7 @@ div.video-container > video {
 section {
   position: relative;
   background-image: url("../assets/images/backgroundPattern.webp");
-  height: 100%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  height: 100%; }
 
 #lifts-banner {
   background-image: url("../assets/images/whitePattern.jpg");
@@ -11310,6 +11309,9 @@ section {
   background-image: none;
   background-color: #0b0d0c; }
 
+.paragraph {
+  font-size: 2rem; }
+
 @media (max-width: 991.98px) {
   #clean_and_jerk, lift-judgement {
     display: flex;
@@ -11319,4 +11321,6 @@ section {
   #text-clean-and-jerk, #lift-judgement-paragraph {
     order: 1; }
   .carousel-video {
-    width: 80%; } }
+    width: 80%; }
+  .paragraph {
+    font-size: 1.5rem; } }
