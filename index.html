@@ -237,23 +237,34 @@
             </div>
         </section>        
         <script>
-                document.addEventListener('DOMContentLoaded', function () {
-                    var carousel = document.querySelector('#liftsCarousel');
-                    var videos = carousel.querySelectorAll('video');
+            document.addEventListener('DOMContentLoaded', function () {
+                var carousel = document.querySelector('#liftsCarousel');
+                var videos = carousel.querySelectorAll('video');
 
-                    carousel.addEventListener('slide.bs.carousel', function () {
-                        videos.forEach(function (video) {
-                            video.pause();
-                        });
-                    });
-
-                    carousel.addEventListener('slid.bs.carousel', function () {
-                        var activeVideo = carousel.querySelector('.carousel-item.active video');
-                        if (activeVideo) {
-                            activeVideo.play();
-                        }
-                    });
+                var bootstrapCarousel = new bootstrap.Carousel(carousel, {
+                    interval: false, 
                 });
+
+                function pauseAllVideos() {
+                    videos.forEach(function (video) {
+                        video.pause();
+                        video.currentTime = 0;
+                    });
+                }
+
+                carousel.addEventListener('slide.bs.carousel', function () {
+                    pauseAllVideos();
+                });
+
+                carousel.addEventListener('slid.bs.carousel', function () {
+                    var activeItem = carousel.querySelector('.carousel-item.active');
+                    var activeVideo = activeItem ? activeItem.querySelector('video') : null;
+
+                    if (activeVideo) {
+                        activeVideo.play();
+                    }
+                });
+            });
         </script>
     </body>
 </html>
