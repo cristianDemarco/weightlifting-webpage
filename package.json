@@ -9,11 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^9.0.0"
-  },
   "dependencies": {
     "boostrap": "^2.0.0",
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "node-sass": "^9.0.0",
+    "sass": "^1.77.2"
   }
 }

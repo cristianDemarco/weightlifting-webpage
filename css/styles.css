@@ -11305,12 +11305,15 @@ section {
 .carousel-video {
   width: 50%; }
 
-#olympics {
+#team-italy {
   background-image: none;
   background-color: #0b0d0c; }
 
 .paragraph {
   font-size: 2rem; }
+
+.history-img {
+  width: 75%; }
 
 @media (max-width: 991.98px) {
   #clean_and_jerk, lift-judgement {
@@ -11323,4 +11326,6 @@ section {
   .carousel-video {
     width: 80%; }
   .paragraph {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .history-img {
+    width: 100%; } }
