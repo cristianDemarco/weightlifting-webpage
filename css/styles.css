@@ -11305,6 +11305,9 @@ section {
 .carousel-video {
   width: 50%; }
 
+.carousel-indicators {
+  top: 2%; }
+
 #team-italy {
   background-image: none;
   background-color: #0b0d0c; }
